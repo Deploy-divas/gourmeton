@@ -1,20 +1,21 @@
-import { useState } from 'react'
-import { Menu, X } from 'lucide-react'
 import logo from '../assets/gourmeton-logo.png'
 
 const links = [
   { label: 'Início', href: '#inicio' },
   { label: 'Apresentação', href: '#apresentacao' },
   { label: 'Funcionalidades', href: '#funcionalidades' },
+  { label: 'Depoimentos', href: '#depoimentos' },
+  { label: 'Inscrição', href: '#newsletter' },
 ]
+
 
 export default function Footer() {
 
   return (
-    <footer className="py-10 px-20 bg-gourmet-dark ">
-        <div className="grid grid-cols-3 gap-10">
+    <footer className="py-10 px-6 sm:px-10 lg:px-20 bg-gourmet-dark">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 pb-10">
 
-            <div className="p-5">
+            <div className="p-5 flex flex-col items-center text-center lg:items-start lg:text-left">
                 <a
                 href="#inicio"
                 className="flex items-center rounded-lg outline-none transition-transform hover:scale-[1.02] focus-visible:ring-2 focus-visible:ring-gourmet-yellow"
@@ -29,7 +30,7 @@ export default function Footer() {
                 <p className="text-gourmet-cream text-base max-w-md">Sabores da Itália direto pra sua casa, com ingredientes selecionados e entregues fresquinhos para transformar cada refeição em uma experiência especial.</p>
             </div>
 
-            <nav className="p-10 flex flex-row gap-10 col-span-2 justify-end">
+            <nav className="flex flex-col justify-center items-center text-center">
 
                 {links.map((link) => (
                     <a
@@ -40,6 +41,15 @@ export default function Footer() {
                     </a>
                 ))}
             </nav>
+
+            <div className="p-5 flex flex-col items-center text-center lg:items-end lg:text-right">
+                <h3 className='text-gourmet-green font-bold pb-3'>Encontre-nos</h3>
+                <ul>
+                    <li className='text-gourmet-cream text-base'>(11) 98765-4321</li>
+                    <li className='text-gourmet-cream text-base'>deploydasdiva@gmail.com</li>
+                    <li className='text-gourmet-cream text-base'>Av. Paulista, 1011</li>
+                </ul>
+            </div>
             
             
         </div>

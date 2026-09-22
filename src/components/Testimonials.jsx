@@ -35,7 +35,7 @@ export default function Testimonials() {
   return (
     <section
       id="depoimentos"
-      className="scroll-mt-20 bg-gourmet-cream py-20 sm:py-24 lg:py-28"
+      className="bg-gourmet-cream py-10 sm:py-24 lg:py-28"
     >
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
 

@@ -6,6 +6,8 @@ const links = [
   { label: 'Início', href: '#inicio' },
   { label: 'Apresentação', href: '#apresentacao' },
   { label: 'Funcionalidades', href: '#funcionalidades' },
+  { label: 'Depoimentos', href: '#depoimentos' },
+  { label: 'Inscrição', href: '#newsletter' },
 ]
 
 export default function Header() {

@@ -32,7 +32,7 @@ export default function Features() {
   return (
     <section
       id="funcionalidades"
-      className="scroll-mt-20 bg-white py-20 sm:py-24 lg:py-28"
+      className="bg-white py-20 sm:py-24 lg:py-28"
     >
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <div className="mx-auto max-w-3xl text-center">

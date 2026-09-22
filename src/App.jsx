@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Presentation from './components/Presentation'
 import Features from './components/Features'
 import Testimonials from './components/Testimonials'
+import Newsletter from './components/Newsletter'
 
 import Footer from './components/Footer'
 
@@ -16,6 +17,7 @@ export default function App() {
         <Presentation />
         <Features />
         <Testimonials />
+        <Newsletter />
 
         {/* Adiconar as pŕoximas seções :) */}
         <div id="depoimentos" />
