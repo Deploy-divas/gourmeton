@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import logo from '../assets/gourmeton-logo.png'
+import logo from '../assets/logo-limpa.png'
 
 const links = [
   { label: 'Início', href: '#inicio' },
@@ -28,7 +28,7 @@ export default function Header() {
           <img
             src={logo}
             alt="GourmetOn — Sabores do seu jeito"
-            className="h-12 w-auto object-contain sm:h-14"
+            className="h-20 w-auto object-contain sm:h-14"
           />
         </a>
 

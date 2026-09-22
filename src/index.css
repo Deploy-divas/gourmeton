@@ -2,7 +2,8 @@
 
 @theme {
   --color-gourmet-green: #5CA43E;
-  --color-gourmet-red: #CF2A28;
+  --color-gourmet-red: #CF2A28; 
+  --color-gourmet-red-dark: #400D0C; 
   --color-gourmet-yellow: #EAAF39;
   --color-gourmet-cream: #FCF7EB;
   --color-gourmet-dark: #24321F;
