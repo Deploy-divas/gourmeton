@@ -1,19 +1,19 @@
-import { useState } from 'react'
-import { Menu, X } from 'lucide-react'
-import logo from '../assets/logo-limpa.png'
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import logo from "../assets/logo-limpa.png";
 
 const links = [
-  { label: 'Início', href: '#inicio' },
-  { label: 'Apresentação', href: '#apresentacao' },
-  { label: 'Funcionalidades', href: '#funcionalidades' },
-  { label: 'Depoimentos', href: '#depoimentos' },
-  { label: 'Inscrição', href: '#newsletter' },
-]
+  { label: "Início", href: "#inicio" },
+  { label: "Apresentação", href: "#apresentacao" },
+  { label: "Funcionalidades", href: "#funcionalidades" },
+  { label: "Depoimentos", href: "#depoimentos" },
+  { label: "Inscrição", href: "#newsletter" },
+];
 
 export default function Header() {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const closeMenu = () => setMenuOpen(false)
+  const closeMenu = () => setMenuOpen(false);
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-gourmet-green/15 bg-gourmet-cream/95 shadow-sm backdrop-blur-md">
@@ -57,7 +57,7 @@ export default function Header() {
           type="button"
           onClick={() => setMenuOpen((open) => !open)}
           className="rounded-lg p-2 text-gourmet-dark transition hover:bg-gourmet-green/10 md:hidden"
-          aria-label={menuOpen ? 'Fechar menu' : 'Abrir menu'}
+          aria-label={menuOpen ? "Fechar menu" : "Abrir menu"}
           aria-expanded={menuOpen}
           aria-controls="mobile-menu"
         >
@@ -93,5 +93,5 @@ export default function Header() {
         </div>
       )}
     </header>
-  )
+  );
 }

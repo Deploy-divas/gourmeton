@@ -1,11 +1,12 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Presentation from './components/Presentation'
-import Features from './components/Features'
-import Testimonials from './components/Testimonials'
-import Newsletter from './components/Newsletter'
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Presentation from "./components/Presentation";
+import Features from "./components/Features";
+import Testimonials from "./components/Testimonials";
+import Newsletter from "./components/Newsletter";
+import Menu from "./components/Menu";
 
-import Footer from './components/Footer'
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Hero />
         <Presentation />
         <Features />
+        <Menu />
         <Testimonials />
         <Newsletter />
 
@@ -25,5 +27,5 @@ export default function App() {
         <Footer />
       </main>
     </div>
-  )
+  );
 }
