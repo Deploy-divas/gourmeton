@@ -58,7 +58,7 @@ const Menu = () => {
     <div className="pt-18 sm:pt-20 lg:pt-24 flex flex-col items-center justify-center">
       <div className="mx-auto max-w-3xl text-center ">
         <span className="text-sm font-black uppercase tracking-[0.25em] text-gourmet-green">
-          Buscar receitas
+          Buscar pratos
         </span>
         <h2 className="mt-4 text-4xl font-black leading-tight text-gourmet-dark sm:text-5xl">
           Descubra novos sabores com
@@ -69,7 +69,7 @@ const Menu = () => {
         <div className="w-full">
           <label className="mt-8 block text-left" htmlFor="filtro-receitas">
             <span className="mb-2 block font-bold text-gourmet-dark">
-              Buscar receita
+              Buscar prato
             </span>
           </label>
 
@@ -78,7 +78,7 @@ const Menu = () => {
             type="search"
             value={pesquisa}
             onChange={(event) => setPesquisa(event.target.value)}
-            placeholder="Digite o nome da receita"
+            placeholder="Digite o nome do prato"
             className="w-full rounded-xl border border-gourmet-dark/15 bg-white px-4 py-3 text-gourmet-dark outline-none transition focus:border-gourmet-red focus:ring-2 focus:ring-gourmet-red/20"
           />
         </div>
